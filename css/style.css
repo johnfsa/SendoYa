@@ -1,0 +1,452 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#start {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vw;
+  background-color: white;
+  z-index: 20;
+}
+
+.underBar {
+  display: flex;
+  justify-content: center;
+}
+
+.underBar div {
+  height: 5px;
+  width: 50px;
+  background-color: red;
+}
+
+.logo {
+  padding: 3px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  border: solid 2px #ffffff;
+  z-index: 10;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 1em;
+}
+
+.mainVisual {
+  background-image: url(../img/mainVisual.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position: 50% 70%;
+}
+
+.mainVisual-text {
+  position: absolute;
+  right: 0;
+  height: 500px;
+  width: 500px;
+  background-color: rgba(0, 0, 0, 0.527);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  color: white;
+  text-align: center;
+}
+
+.news {
+  margin-top: 30px;
+}
+
+.news-box {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.news-box-contents {
+  display: flex;
+  width: 80%;
+  box-shadow: 0 0 2px black;
+}
+
+.news-box-content {
+  width: 50%;
+}
+
+.noteLogoOutside {
+  background-color: #41c9b4;
+  width: 100%;
+  height: 350px;
+}
+
+.noteLogo {
+  background-image: url(../img/noteLogo.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.about {
+  margin-top: 30px;
+}
+
+.heading {
+  text-align: center;
+}
+
+.aboutMsg {
+  margin: 50px 0 30px;
+}
+
+.aboutMsg div {
+  text-align: center;
+  color: #000000;
+}
+
+.about-box {
+  display: flex;
+  justify-content: center;
+}
+
+.about-border {
+  background-color: rgb(157, 255, 157);
+  height: 100px;
+  width: 600px;
+  margin: 50px;
+}
+
+.about-border a {
+  text-decoration: none;
+}
+
+.aboutItem {
+  height: 100px;
+  width: 600px;
+  position: relative;
+  bottom: 10px;
+  right: 10px;
+  transition: transform 300ms 100ms ease;
+  background-image: url(../img/mainVisual.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.aboutItem:hover {
+  transform: translate(10px, 10px);
+}
+
+.about-text-box {
+  background-color: rgba(0, 0, 0, 0.493);
+  height: 100%;
+}
+
+.about-text-box h1 {
+  color: white;
+  line-height: 100px;
+  text-align: center;
+}
+
+.product-box {
+  display: flex;
+  justify-content: center;
+}
+
+.product-border {
+  background-color: rgb(157, 255, 157);
+  height: 250px;
+  width: 250px;
+  margin: 30px;
+}
+
+.product-border a {
+  text-decoration: none;
+}
+
+.product {
+  height: 250px;
+  width: 250px;
+  position: relative;
+  bottom: 10px;
+  right: 10px;
+  background-color: rgb(157, 255, 157);
+  transition: transform 300ms 100ms ease;
+}
+.product:hover {
+  transform: translate(10px, 10px);
+}
+
+.product-text-box {
+  background-color: rgba(0, 0, 0, 0.493);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.gourmetBin {
+  background-image: url(../img/gourmetBin.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.coTango {
+  background-image: url(../img/coTango.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.Himitsukichi {
+  background-image: url(../img/Himitsukichi.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#popUpBackground {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: hsla(0, 0%, 0%, 0.75);
+  z-index: 10;
+}
+
+.closePopUp {
+  color: #000000;
+  position: absolute;
+  top: 0;
+  right: 20px;
+  font-size: 3rem;
+}
+
+#popUpGourmetBin, #popUpCoTango, #popUpHimitsukichi {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 80vw;
+  height: 80vh;
+  background-color: rgb(255, 255, 255);
+  z-index: 11;
+  transform: translate(-50%, -50%);
+  padding: 30px 50px 30px 50px;
+}
+
+.popUp {
+  text-align: center;
+}
+
+.popUp > h1{
+  margin: 40px 30px 30px;
+  border-bottom: 1px solid black;
+}
+
+.popUpProductLink {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.popUpProduct-border {
+  background-color: rgb(157, 255, 157);
+  height: 100px;
+  width: 80%;
+  margin: 10px;
+  position: absolute;
+  bottom: 20px;
+}
+
+.popUpProduct-border a {
+  text-decoration: none;
+}
+
+.popUpProduct {
+  height: 100px;
+  width: 100%;
+  position: relative;
+  bottom: 10px;
+  right: 10px;
+  background-color: rgb(157, 255, 157);
+  transition: transform 300ms 100ms ease;
+}
+
+.popUpProduct:hover {
+  transform: translate(10px, 10px);
+}
+
+.popUpProduct-text-box {
+  background-color: rgba(0, 0, 0, 0.493);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  margin-top: 30px;
+  background-image: url(../img/contact.jpg);
+  height: 600px;
+  background-size: cover;
+  background-position: 50% 80%;
+  color: white;
+}
+
+.form-box {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.527);
+  width: 400px;
+}
+
+.form-box h1 {
+  margin: 20px;
+}
+
+#contactForm div {
+  margin-top: 20px;
+}
+
+.contactFormBtn {
+  text-align: center;
+  margin: 10px;
+  padding: 10px 100px;
+  background-color: rgba(100, 245, 100, 0.493);
+  color: #ffffff;
+  line-height: 1em;
+  transition: 3ms;
+  border: 1px solid rgb(157, 255, 157);
+}
+.contactFormBtn:hover {
+  color: rgb(157, 255, 157);
+  background-color: #ffffff;
+}
+
+footer {
+  height: 120px;
+  background-color: rgb(187, 187, 187);
+  line-height: 120px;
+  color: white;
+  text-align: center;
+}
+
+@media screen and (max-width:425px) {
+
+  header {
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    top: 27px;
+    left: 10px;
+    border: solid 2px #000000;
+  }
+
+  .logo a {
+    color: #000000;
+  }
+
+  .mainVisual {
+    height: 100vw;
+  }
+
+  .mainVisual-text {
+    height: 100vw;
+    width: 100%;
+  }
+
+
+  .news {
+    margin-top: 10px;
+  }
+
+  .news-box {
+    margin-top: 20px;
+  }
+
+  .news-box-contents {
+    width: 100%;
+    box-shadow: 0 0 2px black;
+  }
+
+  .news-box-content {
+    width: 100%;
+  }
+
+  .news-box-content:nth-child(2) {
+    display: none;
+  }
+
+  .aboutMsg {
+    margin: 20px 0 30px;
+  }
+
+  .aboutMsg div {
+    font-size: 0.65rem;
+  }
+
+  .about-border {
+    width: 80%;
+    margin: 25px;
+  }
+
+  .aboutItem {
+    width: 100%;
+  }
+
+  .about-text-box {
+    font-size: 0.65rem;
+  }
+
+  .product-box {
+    flex-direction: column;
+  }
+
+  .product-border {
+    height: 100px;
+    width: 85%;
+  }
+
+  .product {
+    height: 100px;
+    width: 100%;
+  }
+
+  .product-text-box {
+    font-size: 0.65rem;
+  }
+
+
+  #popUpGourmetBin, #popUpCoTango, #popUpHimitsukichi {
+    height: 70vh;
+    padding: 30px 10px;
+    font-size: 0.65rem;
+  }
+
+  .contact {
+    padding: 0;
+  }
+
+  .form-box {
+    width: 100%;
+    padding-top: 20px;
+  }
+
+}

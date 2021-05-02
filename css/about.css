@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#start {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vw;
+  background-color: white;
+  z-index: 20;
+}
+
+.underBar {
+  display: flex;
+  justify-content: center;
+}
+
+.underBar div {
+  height: 5px;
+  width: 50px;
+  background-color: red;
+}
+
+header {
+  /* height: 150px; */
+  /* background-color: rgb(70, 230, 70); */
+  /* background-color: white; */
+  /* display: flex; */
+  /* justify-content: center;  */
+}
+
+.logo {
+  padding: 3px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  border: solid 2px #ffffff;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family:'Times New Roman', Times, serif
+}
+
+.mainVisual {
+  background-image: url(../img/mainVisual.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position: 50% 70%;
+  display: flex;
+  justify-content: center;
+}
+
+.mainVisual-text {
+  height: 200px;
+  width: 500px;
+  background-color: rgba(0, 0, 0, 0.527);
+  margin: auto 0;
+  z-index: 1;
+  box-shadow: 25px 25px rgba(85, 255, 85, 0.5);
+}
+
+.mainVisual-text h1 {
+  color: white;
+  text-align: center;
+  line-height: 200px;
+}
+
+.mission {
+  margin-top: 30px;
+}
+
+.heading {
+  text-align: center;
+}
+
+.aboutMsg {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.aboutMsg h3 {
+  margin-top: 20px;
+}
+
+.aboutMsg-box {
+  margin: 30px 0;
+  background-image: url(../img/aboutMsg.jpg);
+  background-size: cover;
+  background-position: 50% 65%;
+}
+
+.aboutMsg-box-inside {
+  padding: 90px 0;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.192);
+}
+
+.aboutMsg-box-inside div {
+  color: #ffffff;
+  margin: 0 50px;
+}
+
+.aboutMsg-box h2 {
+  border: solid 1px white;
+  padding: 5px;
+  text-shadow: 0 0 2px black;
+  box-shadow: 0 0 2px black;
+}
+
+.aboutMsg-box h3 {
+  text-shadow: 0 0 2px black;
+}
+
+.member {
+  margin-top: 50px;
+}
+
+.member-box {
+  margin: 50px;
+}
+
+.memberImg {
+  background-image: url(../img/yasuda.jpg);
+  height: 400px;
+  width: 800px;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: 50% 70%;
+  margin-bottom: 10px;
+}
+
+.menberIntroduction {
+  text-align: center;
+}
+
+.menberIntroduction img{
+  margin-top: 20px;
+}
+
+footer {
+  height: 120px;
+  background-color: rgb(187, 187, 187);
+  line-height: 120px;
+  color: white;
+  text-align: center;
+}

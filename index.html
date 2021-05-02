@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>SendoYa</title>
+    <link rel="stylesheet" href="css/skippr.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div id="start"></div>
+    <header>
+      <div class="logo">
+        <a href="index.html">
+          <div>
+            <h1>SendoYa</h1>
+          </div>
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <div class="mainVisual">
+        <div class="mainVisual-text">
+          <div class="mainVisual-text-box">
+            <h2>　丹後をつなぐ。</h2>
+            <h2>　丹後「が」つなぐ。</h2>
+          </div>
+        </div>
+        <div class="theTarget">
+          <div class="mainVisual" style="background-position: 50% 70%"></div>
+          <div style="background-image: url(img/forest.jpg)"></div>
+          <div style="background-image: url(img/dirt.jpg)"></div>
+          <div style="background-image: url(img/skippr1.jpg)"></div>
+        </div>
+      </div>
+      <div class="news">
+        <h1 class="heading">News.</h1>
+        <div class="underBar"><div></div></div>
+        <div class="news-box">
+          <div class="news-box-contents">
+            <div class="news-box-content" >
+              <a class="twitter-timeline" data-width="100%" data-height="350px" data-theme="light" data-chrome=”nofooter” href="https://twitter.com/da_ab_y?ref_src=twsrc%5Etfw" target="_blank" rel="noopener noreferrer"></a>
+              <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+            <div class="news-box-content">
+              <a href="https://note.com/ysd_0722" target="_blank" rel="noopener noreferrer">
+                <div class="noteLogoOutside">
+                  <div class="noteLogo"></div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about">
+        <h1 class="heading">About us.</h1>
+        <div class="underBar"><div></div></div>
+        <div class="aboutMsg">
+          <div>
+            <h3>
+              丹後の、そして丹後にゆかりのある人々やモノを繋ぐことで<br>
+              それらを源泉に新しい可能性を創造します。<br>
+            </h3>
+            <br>
+          </div>
+          <div>
+            <h3>
+              「新しいチャンス、新しいコネクション、新しい”楽しみ”が欲しい」<br>
+              そんなあなたに、私たちのことを知って欲しいと考えています。
+            </h3>
+          </div>
+        </div>
+        <div class="about-box">
+          <div class="about-border">
+            <a href="about.html">
+              <div class="aboutItem">
+                <div class="about-text-box">
+                  <h1>SendoYaについて</h1>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="products">
+        <h1 class="heading">Products.</h1>
+        <div class="underBar"><div></div></div>
+        <div class="product-box">
+          <div class="product-border">
+            <div class="product gourmetBin" id="gourmetBinTrigger">
+              <div class="product-text-box"><h1>ぐるめ便</h1></div>
+            </div>
+          </div>
+          <div class="product-border">
+            <div class="product coTango" id="coTangoTrigger">
+              <div class="product-text-box"><h1>co-Tango</h1></div>
+            </div>
+          </div>
+          <div class="product-border">
+            <div class="product Himitsukichi" id="himitsukichiTrigger">
+              <div class="product-text-box"><h1>ひみつきち</h1></div>
+            </div>
+          </div>
+          <div id="popUpBackground"></div>
+          <div id="popUpGourmetBin" class="popUp">
+            <a class="closePopUp"><p>×</p></a>
+            <h1>丹後ぐるめ便.</h1>
+            <h3>
+              「今は離れているけど、地元のことが好き。」<br>
+              <br>
+              そんな人へ届けたい、<br>
+              <br>
+              丹後のお米と食材を毎月１回送ります。<br>
+              <br>
+              食卓から丹後へ繋がる道を作ります。
+            </h3>
+            <div class="popUpProductLink">
+              <div class="popUpProduct-border">
+                <div class="popUpProduct gourmetBin">
+                  <div class="popUpProduct-text-box">
+                    <h1>準備中…</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="popUpCoTango" class="popUp">
+            <a class="closePopUp"><p>×</p></a>
+            <h1>co-Tango.</h1>
+            <h3>
+              丹後をキーワードとして人と交流できる<br>
+              <br>
+              オンラインコミュニティです。<br>
+              <br>
+              これをきっかけに集まった人が共に<br>
+              <br>
+              「丹後を手掛ける」ことができる環境を目指します。
+            </h3>
+            <div class="popUpProductLink">
+              <div class="popUpProduct-border">
+                <a href="coTango.html">
+                  <div class="popUpProduct coTango">
+                    <div class="popUpProduct-text-box">
+                      <h1>co-Tangoに参加する</h1>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div id="popUpHimitsukichi" class="popUp">
+            <a class="closePopUp"><p>×</p></a>
+            <h1>ひみつきち.</h1>
+            <h3>
+              「今週末何する？」「秘密基地に行こうよ」<br>
+              <br>
+              実際に丹後で集まる時のきっかけ・場所を提供します。<br>
+              <br>
+              「地元に行くと誰かいて、何か楽しいことがある」<br>
+              <br>
+              そんな空間を目指します。
+            </h3>
+            <div class="popUpProductLink">
+              <div class="popUpProduct-border">
+                <div class="popUpProduct Himitsukichi">
+                  <div class="popUpProduct-text-box">
+                    <h1>準備中…</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact">
+        <div class="form-box">
+          <h1>Contact.</h1>
+          <p>
+            事業内容について・取材依頼・協業の提案など<br>
+            ご自由にお問い合わせください。
+          </p>
+          <form id="contactForm" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdGL4vlFmPsSCj5YujdADVBO3Rc-5Ds1xJk6NeMG3BRoQ5rYQ/formResponse">
+            <div>
+              <label for="name">お名前</label><br>
+              <input id="name" type="text" name="entry.2005620554" size="40"><br>
+            </div>
+            <div>
+              <label for="email">メールアドレス</label><br>
+              <input id="email" type="text" name="entry.1045781291" size="40"><br>
+            </div>
+            <div>
+              <label for="msg">お問い合わせ内容</label><br>
+              <textarea id="msg" name="entry.1065046570" placeholder="お気軽にお問い合わせください。" rows="4" cols="40"></textarea><br>
+            </div>
+            <div>
+              <button type="submit" name="button"  class="contactFormBtn">送信</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>©︎2021 by SendoYa</p>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/skippr.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
