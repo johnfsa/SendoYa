@@ -14,14 +14,6 @@
   z-index: 20;
 }
 
-header {
-  /* height: 150px; */
-  /* background-color: rgb(70, 230, 70); */
-  /* background-color: white;
-  display: flex;
-  justify-content: center; */
-}
-
 .logo {
   padding: 3px;
   position: absolute;
@@ -86,4 +78,42 @@ footer {
   line-height: 120px;
   color: white;
   text-align: center;
+}
+
+@media screen and (max-width:425px) {
+
+  header {
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    top: 27px;
+    left: 10px;
+    border: solid 2px #000000;
+  }
+
+  .logo a {
+    color: #000000;
+  }
+
+  .coTango-form{
+    padding: 50px 0 0 0;
+    background-color: rgba(0, 0, 0, 0.637);
+  }
+
+  .form > div{
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .coTango-form-text{
+    margin-bottom: 0;
+  }
+
+  .formItem {
+    font-size: 1rem;
+  }
 }
