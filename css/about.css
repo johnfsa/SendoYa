@@ -39,6 +39,10 @@
   font-family:'Times New Roman', Times, serif
 }
 
+main {
+  font-family: sans-serif;
+}
+
 .mainVisual {
   background-image: url(../img/mainVisual.jpg);
   height: 500px;
