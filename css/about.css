@@ -120,12 +120,12 @@ main {
   margin-top: 50px;
 }
 
-.member-box {
+.CEO-box {
   margin: 50px 0;
 }
 
-.memberImg {
-  background-image: url(../img/yasuda.jpg);
+.CEOImg {
+  background-image: url(../img/dyasuda.jpg);
   height: 400px;
   width: 800px;
   margin: 0 auto;
@@ -134,18 +134,18 @@ main {
   margin-bottom: 10px;
 }
 
-.memberIntroduction {
+.CEOIntroduction {
   text-align: center;
 }
 
-.memberIntroduction > p {
+.CEOIntroduction > p {
   margin: 10px 0;
   text-align: center;
   font-weight: bold;
   font-size: 1rem;
 }
 
-.memberIntroduction img{
+.CEOIntroduction img{
   margin-top: 20px;
 }
 
@@ -205,14 +205,8 @@ footer {
     font-size: 0.8rem;
   }
 
-  .memberImg {
-    background-image: url(../img/yasuda.jpg);
-    height: 400px;
+  .CEOImg {
     width: 100vw;
-    margin: 0 auto;
-    background-size: cover;
-    background-position: 50% 70%;
-    margin-bottom: 10px;
   }
 
 }
