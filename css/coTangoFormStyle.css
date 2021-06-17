@@ -54,6 +54,12 @@ a{
   padding: 15px;
 }
 
+#name, #email {
+  margin-top: 10px;
+  font-size: 1.3rem;
+  width: 50%;
+}
+
 .checkbox{
   text-align: left;
   display: inline-block;
@@ -117,5 +123,11 @@ footer {
 
   .formItem {
     font-size: 1rem;
+  }
+
+  #name, #email {
+    margin-top: 10px;
+    font-size: 1.3rem;
+    width: 90%;
   }
 }

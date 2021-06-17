@@ -281,7 +281,7 @@ main {
   padding: 50px;
   margin-top: 30px;
   background-image: url(../img/contact.jpg);
-  height: 600px;
+  height: 650px;
   background-size: cover;
   background-position: 50% 80%;
   color: white;
@@ -299,6 +299,11 @@ main {
 
 #contactForm div {
   margin-top: 20px;
+}
+
+input, textarea {
+  font-size: 1.3rem;
+  width: 90%;
 }
 
 .contactFormBtn {
