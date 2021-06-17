@@ -41,6 +41,10 @@
   font-size: 1em;
 }
 
+main {
+  font-family: sans-serif;
+}
+
 .mainVisual {
   background-image: url(../img/mainVisual.jpg);
   height: 500px;
@@ -263,6 +267,12 @@
 .popUpLink {
   border: 1px solid rgb(255, 255, 255);
   color: #ffffff;
+}
+
+.popUpLink:hover {
+  border: 1px solid rgb(255, 255, 255);
+  color: #000000;
+  background-color: #ffffff;
 }
 
 .contact {
