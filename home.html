@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>SendoYa</title>
     <link rel="stylesheet" href="css/skippr.css">
-    <link rel="stylesheet" href="css/top.css">
+    <link rel="stylesheet" href="css/home.css">
   </head>
   <body>
     <div id="start"></div>
     <header>
       <div class="logo">
-        <a href="top.html">
+        <a href="home.html">
           <div>
             <h1>SendoYa</h1>
           </div>
@@ -20,6 +20,32 @@
     </header>
 
     <main>
+      <div class="bottomMenu">
+        <a href="#start">
+          <div class="bottomMenuItem">
+            <img src="img/home.png">
+            <p>Home</p>
+          </div>
+        </a>
+        <a href="about.html">
+          <div class="bottomMenuItem">
+            <img src="img/about.png">
+            <p>About</p>
+          </div>
+        </a>
+        <a href="#products">
+          <div class="bottomMenuItem">
+            <img src="img/product.png">
+            <p>Products</p>
+          </div>
+        </a>
+        <a href="#contact">
+          <div class="bottomMenuItem">
+            <img src="img/contact.png">
+            <p>Contact</p>
+          </div>
+        </a>
+      </div>
       <div class="mainVisual">
         <div class="mainVisual-text">
           <div class="mainVisual-text-box">
@@ -98,7 +124,7 @@
         </div>
       </div>
 
-      <div class="products">
+      <div id="products" class="products">
         <h1 class="heading">Products.</h1>
         <div class="underBar"><div></div></div>
         <div class="product-box">
@@ -179,7 +205,7 @@
         </div>
       </div>
 
-      <div class="contact">
+      <div id="contact" class="contact">
         <div class="form-box">
           <h1>Contact.</h1>
           <p>
@@ -197,7 +223,7 @@
             </div>
             <div>
               <label for="msg">お問い合わせ内容</label><br>
-              <textarea id="msg" name="entry.1065046570" placeholder="お気軽にお問い合わせください。" rows="4" cols="40"></textarea><br>
+              <textarea id="msg" name="entry.1065046570" rows="4" cols="40"></textarea><br>
             </div>
             <div>
               <button type="submit" name="button"  class="contactFormBtn">送信</button>
@@ -212,5 +238,6 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/skippr.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/skippr.js"></script>
   </body>
 </html>

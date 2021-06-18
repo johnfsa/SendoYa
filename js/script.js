@@ -3,19 +3,6 @@ $(function() {
 		$('#start').fadeOut(500);
 	},100);
 
-  $(".theTarget").skippr({
-    transition : 'slide',
-    speed : 1000,
-    easing : 'easeOutQuart',
-    navType : 'none',
-    childrenElementType : 'div',
-    arrows : false,
-    autoPlay : true,
-    autoPlayDuration : 3500,
-    keyboardOnAlways : true,
-    hidePrevious : false
-  });
-
   $('#gourmetBinTrigger').on('click', function(event) {
     $('#popUpBackground').fadeIn();
     $('#popUpGourmetBin').fadeIn();
@@ -46,4 +33,11 @@ $(function() {
     event.preventDefault();
   });
 
+ $('a[href^="#"]').on('click', function () {
+    var href = $(this).attr("href");
+    var target = $(href == "#" || href == "" ? 'html' : href);
+    var position = target.offset().top;
+    $("html, body").animate({scrollTop: position}, 550, "swing");
+    return false;
+  });
 });
