@@ -82,7 +82,6 @@ header {
 
 .logo {
   padding: 3px;
-  /* border: solid 2px #ffffff; */
   z-index: 10;
 }
 
@@ -375,7 +374,7 @@ input, textarea {
 
 footer {
   height: 120px;
-  background-color: rgb(187, 187, 187);
+  background-color: #232f3e;
   line-height: 120px;
   color: white;
   text-align: center;
