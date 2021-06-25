@@ -398,7 +398,7 @@ footer {
     border-left: none;
     background-color: #0000007c;
     width:25vw;
-    height: 60px;
+    height:60px;
     color: white;
     display: flex;
     flex-flow: column;
@@ -420,20 +420,14 @@ footer {
 
   header {
     height: 100px;
-    background-color: white;
     display: flex;
-    justify-content: center;
+    justify-content:flex-start;
     align-items: center;
   }
 
   .logo {
     top: 27px;
     left: 10px;
-    border: solid 2px #000000;
-  }
-
-  .logo a {
-    color: #000000;
   }
 
   .mainVisual {
