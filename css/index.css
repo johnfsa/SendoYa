@@ -214,7 +214,12 @@ main {
   text-align: center;
 }
 
+.products {
+  margin: 10px auto;
+}
+
 .product-box {
+  margin: 20px 0;
   display: flex;
   justify-content: center;
 }
@@ -330,7 +335,7 @@ main {
   display: flex;
   justify-content: center;
   padding: 50px;
-  margin-top: 30px;
+  margin-top: 50px;
   background-image: url(../img/contact.jpg);
   height: 650px;
   background-size: cover;
