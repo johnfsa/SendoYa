@@ -31,6 +31,20 @@ header {
   display: flex;
   align-items: center;
   padding: 0 20px;
+  justify-content: space-between;
+}
+
+.headerItems {
+  height: 100%;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerItems > * {
+  display: flex;
+  margin-left: 15px;
 }
 
 .logo {
@@ -216,7 +230,7 @@ footer {
   header {
     height: 100px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
   }
 
