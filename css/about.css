@@ -181,7 +181,7 @@ footer {
   height: 100vh;
   position: fixed;
   top: 0;
-  width: 10vw;
+  width: 100px;
   z-index: 10;
   display: flex;
   flex-flow: column;
@@ -195,7 +195,7 @@ footer {
 .bottomMenuItem {
   border-left: 1px solid #0000007c;
   background-color: #0000007c;
-  width:9vw;
+  width:100px;
   height: 60px;
   color: white;
   display: flex;
@@ -207,7 +207,7 @@ footer {
 .bottomMenuItem:hover {
   border-left: 1px solid #000000c7;
   background-color: #000000c7;
-  width:9vw;
+  width:100px;
   height: 60px;
   color: white;
   display: flex;
