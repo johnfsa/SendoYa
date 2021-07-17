@@ -105,14 +105,12 @@ main {
 }
 
 .note-embed {
-  border: 0;
+  border: none;
   display: block;
   max-width: 100%;
   width: 100%;
   padding: 10px 10px 0px 10px;
-  margin: 0px 0px;
-  position: static;
-  visibility: visible;
+  margin: 0px;
 }
 
 .readMore {

@@ -9,7 +9,7 @@
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vw;
+  height: 100vh;
   background-color: white;
   z-index: 20;
 }
@@ -181,6 +181,9 @@ footer {
 
   .form > div{
     background-color: rgba(0, 0, 0, 0);
+    padding: 15px;
+    width: 100%;
+    margin: 0 auto;
   }
 
   .coTango-form-text{
