@@ -100,8 +100,9 @@ main {
   text-align: center;
 }
 
-.aboutMsg h3 {
+.aboutMsg > h3 {
   margin-top: 20px;
+  font-size: 1.5em;
 }
 
 .aboutMsg-box {
