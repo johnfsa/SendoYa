@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family:sans-serif;
+}
+
 #start {
   position: fixed;
   top: 0;
@@ -46,6 +50,8 @@ header {
   color: #ffffff;
   font-family:sans-serif;
   font-size: 1em;
+  display: flex;
+  align-items: center;
 }
 
 
