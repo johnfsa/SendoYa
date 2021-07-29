@@ -88,6 +88,8 @@ main {
   z-index: 1;
   color: white;
   text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 .news {
@@ -136,11 +138,9 @@ main {
 
 .aboutMsg {
   margin: 50px 0 30px;
-}
-
-.aboutMsg div {
   text-align: center;
-  color: #000000;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
 .about-box {
@@ -412,6 +412,7 @@ footer {
     display: flex;
     justify-content:space-between;
     align-items: center;
+    padding: 0 10px;
   }
 
   .logo {
@@ -440,7 +441,6 @@ footer {
 
   .news-box-contents {
     width: 100%;
-    box-shadow: none;
   }
 
   .news-box-content {
@@ -453,10 +453,7 @@ footer {
 
   .aboutMsg {
     margin: 20px 0 30px;
-  }
-
-  .aboutMsg div {
-    font-size: 0.65rem;
+    font-size: 0.7rem;
   }
 
   .about-border {
