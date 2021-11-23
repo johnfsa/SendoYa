@@ -441,6 +441,7 @@ footer {
 
   .news-box-contents {
     width: 100%;
+    box-shadow: none;
   }
 
   .news-box-content {
@@ -449,6 +450,10 @@ footer {
 
   .news-box-content:nth-child(1) {
     display: none;
+  }
+
+  .readMore {
+    padding: 2px;
   }
 
   .aboutMsg {
