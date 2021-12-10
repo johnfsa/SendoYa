@@ -1,65 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-body {
-  font-family:sans-serif;
-}
-
-#start {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: white;
-  z-index: 20;
-}
-
-.underBar {
-  display: flex;
-  justify-content: center;
-}
-
-.underBar div {
-  height: 5px;
-  width: 50px;
-  background-color: red;
-}
-
-header {
-  height: 80px;
-  background-color: #232f3e;
-  display: flex;
-  align-items: center;
-  padding: 0 20px;
-  justify-content: space-between;
-}
-
-.headerItems {
-  height: 100%;
-  margin-right: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.headerItems > * {
-  display: flex;
-  margin-left: 15px;
-}
-
-.logo {
-  padding: 3px;
-  z-index: 10;
-}
-
-.logo a {
-  display: flex;
-  align-items: center;
-}
 
 .mainVisual {
   background-image: url(../img/mainVisual.jpg);
@@ -87,10 +26,6 @@ header {
 
 .mission {
   margin-top: 30px;
-}
-
-.heading {
-  text-align: center;
 }
 
 .aboutMsg {
@@ -168,76 +103,10 @@ header {
   margin-top: 20px;
 }
 
-footer {
-  height: 120px;
-  background-color: #232f3e;
-  line-height: 120px;
-  color: white;
-  text-align: center;
-}
 
-.bottomMenu {
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  width: 100px;
-  z-index: 10;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-}
-
-.bottomMenu > a {
-  text-decoration: none;
-}
-
-.bottomMenuItem {
-  border-left: 1px solid #0000007c;
-  background-color: #0000007c;
-  width:100px;
-  height: 60px;
-  color: white;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.bottomMenuItem:hover {
-  border-left: 1px solid #000000c7;
-  background-color: #000000c7;
-  width:100px;
-  height: 60px;
-  color: white;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.bottomMenuItem > img {
-  width: 25px;
-  margin: auto 0;
-}
-
-.bottomMenuItem > p {
-  font-size: 0.9rem;
-}
 
 @media screen and (max-width:425px) {
 
-  header {
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 10px;
-  }
-
-  .logo {
-    top: 27px;
-    left: 10px;
-  }
 
   .mainVisual {
     height: 100vw;
@@ -273,42 +142,5 @@ footer {
 
   footer {
     height: 180px;
-  }
-
-  .bottomMenu {
-    height: 60px;
-    position: fixed;
-    top: auto;
-    bottom: 0;
-    width: 100%;
-    z-index: 10;
-    display: flex;
-    flex-flow: wrap;
-    justify-content: center;
-
-  }
-
-  .bottomMenuItem {
-    border-left: none;
-    background-color: #0000007c;
-    width:25vw;
-    height: 60px;
-    color: white;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .bottomMenuItem:hover {
-    border-left: 1px solid #000000c7;
-    background-color: #000000c7;
-    width:25vw;
-    height: 60px;
-    color: white;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: center;
   }
 }
