@@ -193,7 +193,9 @@
   color: #ffffff;
 }
 
-#popUpGourmetBin, #popUpCoTango, #popUpHimitsukichi {
+.popUp {
+  text-align: center;
+  color: #ffffff;
   display: none;
   position: fixed;
   top: 50%;
@@ -204,11 +206,6 @@
   z-index: 21;
   transform: translate(-50%, -50%);
   padding: 30px 50px 30px 50px;
-}
-
-.popUp {
-  text-align: center;
-  color: #ffffff;
 }
 
 .popUp > h1{
@@ -229,6 +226,10 @@
   border: 1px solid rgb(255, 255, 255);
   color: #000000;
   background-color: #ffffff;
+}
+
+#himitsukichi, #popUpHimitsukichi {
+  display: none;
 }
 
 .contact {
@@ -280,7 +281,6 @@ input, textarea {
 
 
 @media screen and (max-width:425px) {
-
 
   .mainVisual {
     height: 100vw;
@@ -370,6 +370,4 @@ input, textarea {
     width: 100%;
     padding-top: 20px;
   }
-
-  
 }
