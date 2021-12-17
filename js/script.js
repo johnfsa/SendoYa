@@ -15,6 +15,12 @@ $(function() {
     event.preventDefault();
   });
 
+  $('#guildTrigger').on('click', function(event) {
+    $('#popUpBackground').fadeIn();
+    $('#popUpGuild').fadeIn();
+    event.preventDefault();
+  });
+
   $('#himitsukichiTrigger').on('click', function(event) {
     $('#popUpBackground').fadeIn();
     $('#popUpHimitsukichi').fadeIn();
