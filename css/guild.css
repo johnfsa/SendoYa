@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+.main {
+  background-color: #31575b96;
+  width: 100%;
+  padding: 40px 40px 200px 40px;
+}
+.section-top {
+  width: 1080px;
+  margin: 0 auto 50px auto;
+  background-color: #FFF;
+}
+
+.body-wrapper {
+  width: 1080px;
+  margin: 0 auto;
+  background-color: #FFF;
+  border-radius: 10px;
+}
+.guild-description {
+  padding: 115px 0 300px 0;
+}
+.guild-description h2 {
+  font-size: 34px;
+  font-family: sans-serif;
+  text-align: center;
+}
+.underBar div {
+  margin-bottom: 150px;
+}
+.guild-description__text {
+  padding: 0 110px;
+}
+.guild-description p {
+  font-size: 26px;
+  font-family: sans-serif;
+  line-height: 68px;
+  text-align: left;
+}
+.quest-types {
+  padding-bottom: 285px;
+  padding-bottom: 65px;
+}
+.quest-types h2 {
+  font-size: 34px;
+  font-family: sans-serif;
+  text-align: center;
+}
+.quest-types__image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+.quest-types__image li {
+  list-style: none;
+  width: 350px;
+  margin 0 auto;
+}
+.quest-types__image li img {
+  width: 300px;
+  margin: 0 auto;
+  margin-left: 20px;
+}
