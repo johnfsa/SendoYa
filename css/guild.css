@@ -10,13 +10,29 @@
   margin: 0 auto 50px auto;
   background-color: #FFF;
 }
-
 .body-wrapper {
   width: 1080px;
   margin: 0 auto;
   background-color: #FFF;
   border-radius: 10px;
 }
+
+@media (max-width:1159px) {
+  .main {
+    background-color: #31575b96;
+    width: 100%;
+    padding: 40px 24px 50px;
+  }
+  .section-top {
+    width: 100%;
+    margin: 0 auto 50px;
+  }
+  .body-wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
 .guild-description {
   padding: 115px 0 200px 0;
 }
@@ -37,6 +53,29 @@
   line-height: 68px;
   text-align: center;
 }
+@media (max-width:1159px) {
+  .guild-description {
+    padding: 50px 0 80px 0;
+  }
+  .guild-description h2 {
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .underBar div {
+    margin-bottom: 30px;
+  }
+  .guild-description__text {
+    padding: 0 12px;
+  }
+  .guild-description p {
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 24px;
+    text-align: left;
+  }
+}
+
 .quest-types h2 {
   font-size: 26px;
   font-family: sans-serif;
@@ -112,6 +151,61 @@
 .text-padding__adjust {
   padding-top: 100px;
 }
+
+@media (max-width:1159px) {
+  .quest-types h2 {
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .quest-types__image {
+    display: none;
+  }
+  .quest-type__description {
+    padding-top: 50px;
+  }
+  .quest-type__description li {
+    margin-bottom: 40px;
+    list-style: none;
+  }
+  .quest-type__flex-item {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .quest-type__description h3 {
+    text-align: left;
+    margin: 0 auto;
+  }
+  .quest-type__description p {
+    text-align: center;
+    line-height: 36px;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+  }
+  .quest-type__description img {
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 5px;
+  }
+  .text-padding {
+    padding: 40px 1em 1em 1em;
+  }
+  .text-padding__adjust {
+    padding-top: 50px;
+  }
+  .object-position {
+    object-fit: cover;
+    object-position: 60% ;
+  }
+  .object-position__adjust {
+    object-fit: cover;
+    object-position: 0 20px;
+  }
+}
+
+
 .invitation-button {
   background-color: #232f3e;
   border: solid 3px rgb(157, 255, 157);
@@ -132,6 +226,22 @@
 .invitation-button__style:visited {
   color: #FFF;
   text-decoration: none;
+}
+@media (max-width:1159px) {
+  .invitation-button {
+    background-color: #232f3e;
+    border: solid 3px rgb(157, 255, 157);
+    border-radius: 5px;
+    width: 80%;
+    height: auto;
+    margin: 80px auto;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #FFF;
+    padding: 1em;
+    text-decoration: none;
+    font-size: 20px;
+  }
 }
 .levelup-description {
   padding: 0 100px 120px;
@@ -173,6 +283,51 @@
   width: 400px;
   margin: 0 20px;
 }
+
+
+@media (max-width:1159px) {
+  .levelup-description {
+    padding: 0 24px 50px;
+    margin-top: 50px;
+  }
+  .levelup-description h2 {
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .levelup-description__part1 {
+    width: 100%;
+    display: block;
+  }
+  .levelup-description__part1 p {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 0;
+    text-align: center;
+    line-height: 24px;
+  }
+  .levelup-description__part1 img {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .levelup-description__part2 {
+    width: 100%;
+    display: block;
+  }
+  .levelup-description__part2 p {
+    width: 100%;
+    margin: 0;
+    padding-top: 50px;
+    text-align: center;
+    line-height: 24px;
+  }
+  .levelup-description__part2 img {
+    width: 100%;
+    margin: 0 20px;
+  }
+}
+
+
 .underline {
   border-bottom:solid 3px red;
 }
@@ -196,4 +351,28 @@
   color: #FFF;
   padding-top: 10px;
   text-decoration: none;
+}
+@media (max-width:1159px) {
+.section-invitation {
+  padding: 0 0 50px;
+}
+.section-invitation__line {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+  .invitation-button__business-owners {
+    background-color: #232f3e;
+    border: solid 3px rgb(157, 255, 157);
+    border-radius: 5px;
+    width: 80%;
+    height: auto;
+    margin: 50px auto 0;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #FFF;
+    padding: 1em;
+    text-decoration: none;
+    font-size: 20px;
+  }
 }
