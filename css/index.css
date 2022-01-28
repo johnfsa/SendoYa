@@ -168,6 +168,12 @@
   background-size: cover;
 }
 
+.guild {
+  background-image: url(../img/guild/guildTop.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
 .himitsukichi {
   background-image: url(../img/himitsukichi.jpg);
   background-position: center;
