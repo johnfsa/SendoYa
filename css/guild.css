@@ -28,6 +28,14 @@
   }
   .section-top {
     width: 100%;
+    height:auto;
+    margin: 0 auto 50px auto;
+    background-image: url("../img/guild/guildTop.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .section-top {
+    width: 100%;
     margin: 0 auto 50px;
   }
   .body-wrapper {
