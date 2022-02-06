@@ -361,7 +361,7 @@ input, textarea {
   }
 
 
-  #popUpGourmetBin, #popUpCoTango, #popUpHimitsukichi {
+  #popUpGourmetBin, #popUpCoTango, #popUpGuild, #popUpHimitsukichi {
     top: 43%;
     height: 60vh;
     padding: 30px 10px;
