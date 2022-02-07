@@ -446,6 +446,7 @@
   color: #FFF;
   padding-top: 10px;
   text-decoration: none;
+  font-weight: bold;
 }
 @media (max-width:425px) {
 .section-invitation {
@@ -468,7 +469,5 @@
     color: #FFF;
     padding: 1em;
     text-decoration: none;
-    font-weight: bold;
-
   }
 }
