@@ -40,6 +40,10 @@
   bottom: 100px;
 }
 
+.display-inline-on-smartphone {
+  display: none;
+}
+
 @media (max-width:425px) {
   .main {
     background-color: #31575b96;
@@ -60,10 +64,16 @@
     position: relative;
     bottom: 90px;
   }
+  .display-none-on-smartphone {
+    display: none;
+  }
+  .display-inline-on-smartphone {
+    display: inline;
+  }
 }
 
 .guild-description {
-  padding: 115px 0 200px 0;
+  padding: 115px 0 100px 0;
 }
 .guild-description h2 {
   font-size: 26px;
@@ -71,7 +81,7 @@
   text-align: center;
 }
 .underBar div {
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 .guild-description__text {
   padding: 0 auto;
@@ -79,22 +89,22 @@
 .guild-description p {
   font-size: 20px;
   font-family: sans-serif;
-  line-height: 68px;
+  line-height: 40px;
   text-align: center;
 }
 @media (max-width:425px) {
   .guild-description {
-    padding: 50px 0 80px 0;
+    padding: 50px 0 30px 0;
   }
   .guild-description h2 {
     font-size: 18px;
     font-family: sans-serif;
-    text-align: left;
+    text-align: center;
     padding: 0 20px;
   }
   .underBar div {
     width: calc(100% - 30px);
-    background-color: #232f3e1b;
+    background-color: #232f3e42;
     margin-bottom: 30px;
   }
   .guild-description__text {
@@ -105,9 +115,6 @@
     font-family: sans-serif;
     line-height: 24px;
     text-align: left;
-  }
-  .guild-description p br{
-    display: none;
   }
 }
 
@@ -158,12 +165,16 @@
 }
 .quest-type__description h3 {
   text-align: left;
-  margin: 0 0 30px 200px;
+  margin: 0 0 0 0;
+  font-size: 1.5rem;
+  border-bottom: black solid 1px;
+  
 }
 .quest-type__description p {
   text-align: center;
   line-height: 36px;
   width: 100%;
+  font-size: 1.5rem;
 }
 
 .quest-type__description img {
@@ -179,6 +190,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .object-position {
   object-fit: cover;
@@ -186,10 +198,7 @@
 }
 .object-position__adjust {
   object-fit: cover;
-  object-position: 20px 20px;
-}
-.text-padding {
-  padding: 50px 0;
+  object-position: 0 20px;
 }
 .text-padding__adjust {
   padding-top: 100px;
@@ -199,27 +208,33 @@
   .quest-types h2 {
     font-size: 18px;
     font-family: sans-serif;
-    text-align: left;
+    text-align: center;
     padding: 0 20px;
   }
   .quest-types__image {
     display: none;
   }
   .quest-type__description {
-    padding-top: 50px;
+    padding-top: 0;
   }
   .quest-type__description li {
     margin-bottom: 40px;
     list-style: none;
   }
   .quest-type__flex-item {
-    display: block;
+    display: flex;
     width: 100%;
     margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   .quest-type__description h3 {
+    width: 100%;
     text-align: left;
     margin: 0 auto;
+    padding-left: 20px;
+    border: none;
+    font-size: 1.2rem;
   }
   .quest-type__description p {
     text-align: center;
@@ -227,13 +242,13 @@
     margin: 0 auto;
     width: 100%;
     height: auto;
-    font-size: 3.5vw;
+    font-size: 1.1rem;
   }
   .quest-type__description img {
-    margin: 0 0;
+    margin: 10px auto;
     max-width: none;
-    width: 100%;
-    height: calc(100vw - 24px);
+    width: calc(100vw - 74px);
+    height: calc(100vw - 74px);
     border-radius: 5px;
   }
   .quest-type__text {
@@ -256,7 +271,6 @@
   }
 }
 
-
 .invitation-button {
   background-color: #232f3e;
   border: solid 3px rgb(157, 255, 157);
@@ -266,6 +280,7 @@
   margin: 0 auto;
   text-align: center;
   font-size: 1.5rem;
+  font-weight: bold;
   color: #FFF;
   padding-top: 10px;
   text-decoration: none;
@@ -285,13 +300,12 @@
     border-radius: 5px;
     width: 80%;
     height: auto;
-    margin: 80px auto;
+    margin: 30px auto;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #FFF;
     padding: 1em;
     text-decoration: none;
-    font-size: 20px;
   }
 }
 .levelup-description {
@@ -354,7 +368,7 @@
   .levelup-description h2 {
     font-size: 18px;
     font-family: sans-serif;
-    text-align: left;
+    text-align: center;
     padding: 0 20px;
   }
   .levelup-description__text {
@@ -450,10 +464,11 @@
     height: auto;
     margin: 50px auto 0;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #FFF;
     padding: 1em;
     text-decoration: none;
-    font-size: 20px;
+    font-weight: bold;
+
   }
 }
