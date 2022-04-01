@@ -73,13 +73,13 @@
 }
 
 .quest-description {
-  margin: 10px 0;
+  margin: 5px 0;
   font-size: max(1.2vw,0.9rem);
   padding: 10px;
 }
 
 .quest-info {
-  margin: 10px 0;
+  margin: 5px 0;
   font-size: max(1.2vw,0.9rem);
 }
 
