@@ -36,10 +36,11 @@
 }
 
 .quest-list {
-  width: 80%;
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* or space-between */
+  justify-content: center;
+  /* justify-content: space-between; */
 
 }
 
@@ -135,7 +136,7 @@
 
 @media (max-width:425px) {
   .quest-list {
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
