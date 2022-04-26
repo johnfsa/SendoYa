@@ -39,8 +39,7 @@
   width: 90%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  /* justify-content: space-between; */
+  justify-content: space-between;
 
 }
 
@@ -54,6 +53,8 @@
   box-shadow: rgba(72, 72, 72, 0.194) 10px 10px 20px;
   border-radius: 10px;
   padding: 20px 0;
+  position: relative;
+  margin-bottom: 50px;
 }
 
 .quest-box__done {
@@ -67,6 +68,7 @@
   border-radius: 10px;
   padding: 20px 0;
   position: relative;
+  margin-bottom: 50px;
 }
 
 .quest-box__done::after {
