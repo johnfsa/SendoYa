@@ -97,6 +97,7 @@
   object-fit: cover;
   margin: 10px 0;
   background-color: #232f3e;
+  aspect-ratio: 16 / 9;
 }
 
 .quest-description {
@@ -108,6 +109,10 @@
 .quest-info {
   margin: 5px 0;
   font-size: max(1.2vw,0.9rem);
+}
+
+.map-link {
+  color: rgb(131, 131, 131);
 }
 
 .quest-box > a {

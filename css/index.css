@@ -33,13 +33,12 @@
 }
 
 .news-box-contents {
-  display: flex;
-  width: 80%;
+  width:50%;
   box-shadow: 0 0 2px black;
 }
 
 .news-box-content {
-  width: 50%;
+  width: 100%;
 }
 
 .note-embed {
@@ -308,9 +307,9 @@ input, textarea {
     width: 100%;
   }
 
-  .news-box-content:nth-child(1) {
+  /* .news-box-content:nth-child(1) {
     display: none;
-  }
+  } */
 
   .readMore {
     padding: 2px;
