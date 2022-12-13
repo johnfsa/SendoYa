@@ -19,7 +19,7 @@
   <link rel="icon" href="../favicon.ico" id="favicon">
   <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon-180x180.png">
   <link rel="stylesheet" href="../css/common.css">
-  <link rel="stylesheet" href="../css/map.css">
+  <link rel="stylesheet" href="../css/azamap.css">
 </head>
 
 
@@ -46,22 +46,94 @@
     </div>
   </header>
   <main>
-    <section class="map">
-      <h1 class="heading">京丹後市大宮町小字マップ.</h1>
+    <section class="mainVisual">
+        <div class="mainVisual-text">
+          <h1>京丹後市大宮町小字マップ</h1>
+        </div>
+      </section>
+    <section class="azamap">
+      <h1 class="heading">地名が語る、あなたの街.</h1>
       <div class="underBar"><div></div></div>
       <p>
-        文章文章文章文章文章文章文章文章文章文章文章<br>
-        文章文章文章文章文章文章文章文章文章文章文章<br>
-        文章文章文章文章文章文章文章文章文章文章文章
+        <br>京丹後市大宮町には、<br class="only-tablet">およそ1,700の小字が確認されています。<br><br class="only-tablet">
+        どこかで聞いたことのある地名もあれば、<br class="only-tablet">初めて目にする地名も。<br><br>
+        大宮町誌をはじめとした多くの文献と、<br>
+        現在でも小字が利用されている<br class="only-tablet">農地情報等を参考に作成しています。<br><br class="only-tablet">
       </p>
       <div class="googleMap">
-        <iframe src="https://www.google.com/maps/d/u/4/embed?mid=1VfUK-MSzp_aJIIjeOAJ62zd1IBgaTUWv&ll=35.65820425611416, 135.09079965547772&z=10" width="90%" height="500"></iframe>
+        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1SEo2zwmneA9mGD7KJZZ-EFsql00tYmSF&ehbc=2E312F" width="1100" height="650"></iframe>
       </div>
+      <p>
+        ※権利主張の根拠として使用することはできません。
+      </p>
     </section>
+
+    <section id="azaform" class="azaform">
+        <div class="azaform-box">
+          <h1>小字に関する問合せ.</h1>
+          <p>
+            小字マップの修正や追加の小字情報は<br>
+            こちらからお問い合わせください。<br><br>
+          </p>
+          <form class="Azaform" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe6aUwrA4hqIjPBW1RnmvZp-gZ8we2CYCA44_Gyl1qPvZAZ4Q/formResponse">
+            <div>
+                <label for="email">メールアドレスをご記入ください.</label><br>
+                <input id="email" type="text" name="emailAddress" size="40"><br><br>
+            </div>
+            <div>
+                <label for="name">問合せ内容について<br class="only-tablet">ご連絡してもよろしいですか？</label><br>
+                <input class="contact-permission" type="radio" name="entry.1679554558" value="はい">はい
+                <input class="contact-permission" type="radio" name="entry.1679554558" value="いいえ">いいえ<br><br>
+            </div>
+            <div>
+              <label for="name">問合せ内容を教えてください.</label><br>
+              <input class="report-type" type="radio" name="entry.963142839" value="掲載されている小字の位置が違う">
+              掲載されている小字の位置が違う<br>
+              <input class="report-type" type="radio" name="entry.963142839" value="掲載されていない小字について報告">
+              掲載されていない小字について報告<br><br>
+            </div>
+            <div>
+                <label for="name">報告する地名の大字を教えてください.</label><br>
+                <select class="report-oaza" name="entry.936136676">
+                    <option value="口大野">口大野</option>
+                    <option value="奥大野">奥大野</option>
+                    <option value="常吉">常吉</option>
+                    <option value="河辺">河辺</option>
+                    <option value="周枳">周枳</option>
+                    <option value="善王寺">善王寺</option>
+                    <option value="三坂">三坂</option>
+                    <option value="谷内">谷内</option>
+                    <option value="三重">三重</option>
+                    <option value="森本">森本</option>
+                    <option value="明田">明田</option>
+                    <option value="延利">延利</option>
+                    <option value="五十河">五十河</option>
+                    <option value="新宮">新宮</option>
+                    <option value="久住">久住</option>
+                </select><br><br>
+            </div>
+            <div>
+                <label for="name">報告する地名の小字を教えてください.</label><br>
+                <input class="report-koaza" type="text" name="entry.273557105" size="40"><br><br>
+            </div>
+            <div>
+              <label for="msg">問合せの詳細をご記入ください.</label><br>
+              <textarea class="report-details" name="entry.89624715" rows="4" cols="40"></textarea><br><br>
+            </div>
+            <div>
+                <label for="name">その他にあればご記入ください.</label><br>
+                <textarea class="report-other" name="entry.455010052" rows="4" size="40"></textarea><br><br>
+            </div>
+            <div>
+              <button type="submit" name="button"  class="azaformBtn">送信</button>
+            </div>
+          </form>
+        </div>
+      </section>
   </main>
 
   <footer>
-    <p>©︎2023 by SendoYa</p>
+    <p>©︎2022 by SendoYa</p>
   </footer>
 
   <div class="bottomMenu">

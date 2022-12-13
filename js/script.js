@@ -9,21 +9,15 @@ $(function() {
     event.preventDefault();
   });
 
-  $('#coTangoTrigger').on('click', function(event) {
+  $('#AzaMapTrigger').on('click', function(event) {
     $('#popUpBackground').fadeIn();
-    $('#popUpCoTango').fadeIn();
+    $('#popUpAzaMap').fadeIn();
     event.preventDefault();
   });
 
   $('#guildTrigger').on('click', function(event) {
     $('#popUpBackground').fadeIn();
     $('#popUpGuild').fadeIn();
-    event.preventDefault();
-  });
-
-  $('#himitsukichiTrigger').on('click', function(event) {
-    $('#popUpBackground').fadeIn();
-    $('#popUpHimitsukichi').fadeIn();
     event.preventDefault();
   });
 

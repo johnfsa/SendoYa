@@ -1,0 +1,125 @@
+.mainVisual {
+  background-image: url(../img/azatop.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position: 50% 70%;
+  display: flex;
+  justify-content: center;
+}
+
+.mainVisual-text {
+  height: 200px;
+  width: 500px;
+  background-color: rgba(0, 0, 0, 0.527);
+  margin: auto 0;
+  z-index: 1;
+  box-shadow: 25px 25px rgba(85, 255, 85, 0.5);
+}
+
+.mainVisual-text h1 {
+  color: white;
+  text-align: center;
+  line-height: 200px;
+}
+
+.azamap {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.azamap > p {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 1.0rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.googleMap {
+  width: 100%;
+  padding: 50px 100px 100px 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.only-tablet {
+  display: none;
+}
+
+.azaform {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  margin-top: 50px;
+  background-image: url(../img/koazaform.jpg);
+  height: 1100px;
+  background-size: cover;
+  background-position: 50% 80%;
+  color: white;
+}
+
+.report-oaza {
+  font-size: 1.15rem;
+}
+
+.contact-permission {
+  text-align: left;
+  display: inline-block;
+}
+
+.report-koaza {
+  width: 70%;
+}
+
+.report-details {
+  width: 70%;
+}
+
+.report-other {
+  width: 70%;
+}
+
+.azaform-box {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.527);
+  width: 400px;
+}
+
+.azaform-box h1 {
+  margin: 20px;
+}
+
+.azaform > div {
+  margin-top: 20px;
+}
+
+textarea {
+  font-size: 1.3rem;
+  width: 90%;
+}
+
+.azaformBtn {
+  text-align: center;
+  margin: 10px;
+  padding: 10px 100px;
+  background-color: rgba(100, 245, 100, 0.493);
+  color: #ffffff;
+  line-height: 1em;
+  transition: 3ms;
+  border: 1px solid rgb(157, 255, 157);
+}
+.azaformBtn:hover {
+  color: rgb(157, 255, 157);
+  background-color: #ffffff;
+}
+
+@media screen and (max-width:425px) {
+  
+  .googleMap {
+    padding: 20px 0;
+  }
+  .only-tablet {
+    display:initial;
+  }
+
+}
