@@ -58,6 +58,11 @@
   color: white;
 }
 
+.email {
+  font-size: 1.15rem;
+  width: 70%;
+}
+
 .report-oaza {
   font-size: 1.15rem;
 }
@@ -68,14 +73,17 @@
 }
 
 .report-koaza {
+  font-size: 1.15rem;
   width: 70%;
 }
 
 .report-details {
+  font-size: 1.15rem;
   width: 70%;
 }
 
 .report-other {
+  font-size: 1.15rem;
   width: 70%;
 }
 
@@ -94,7 +102,6 @@
 }
 
 textarea {
-  font-size: 1.3rem;
   width: 90%;
 }
 
